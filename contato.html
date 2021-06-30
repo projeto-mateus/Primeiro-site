@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"  href="img/logo.jpg">
+
+    <title>Mini Frog Wiki</title>
+</head>
+<body>
+		<div class="container">
+
+			<header class="fixo">
+				<img src="img/logosapo.svg">
+				<nav class="menu-opcoes">
+					<ul class="ajustes">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#conteudo">Enredo</a></li>
+                        <li><a href="#personagens">personagens</a></li>
+                        <li><a href="#">Contato</a></li>				
+                    </ul>
+				</nav>
+			</header>
+			<div class="text">
+				<h2>Formulário de pesquisa</h2>
+
+					<p>Diz para agente oque voce achou do conteudo</p>
+					<div class="form">
+						<form>
+							<div class="dis">
+								<label>Nome de Usuário:</label>
+								<input type="text" placeholder="">
+							</div>
+							<div class="dis">
+								<fieldset>
+									<legend>Oque achou do conteudo</legend>
+										<input type="radio" id="visitante" name="participar">
+										<label for="visitante">Bom</label><br>
+										<input type="radio" id="participante" name="participar">
+										<label for="participante">Ruim</label><br>
+										<input type="radio" id="moderador" name="participar">
+										<label for="moderador">Rasoalvel</label>
+								</fieldset>
+								<p>Criticas ou duvidas</p>
+								<label for="duvidas"></label>
+								<textarea name="suporte" id="duvidas" style="width: 80%; height: 200px;" placeholder="Digite aqui..."></textarea>
+							</div>
+							<div class="dis">
+								<input type="submit" value="Enviar"><br>
+							</div>
+						</form>
+					</div>
+					<footer>
+					</footer>
+			</div>
+		</div>
+			
+
+</body>
+</html>
